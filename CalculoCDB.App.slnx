@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Application/">
+    <Project Path="CalculoCDBApp.Api/CalculoCDBApp.Api.csproj" />
+  </Folder>
+  <Folder Name="/Domain/">
+    <Project Path="CalculoCDBApp.Domain/CalculoCDBApp.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="CalculoCDBApp.Infra/CalculoCDBApp.Infra.Data.csproj" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="CalculoCDBTests/CalculoCDBTests.csproj" />
+  </Folder>
+</Solution>
