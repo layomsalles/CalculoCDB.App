@@ -29,8 +29,8 @@ namespace CalculoCDBApp.Application.Service
 
             return new CalcularCdbResponse
             {
-                ValorBruto = valorBruto,
-                ValorLiquido = valorLiquido
+                ValorBruto = Math.Round(valorBruto, 2),
+                ValorLiquido = Math.Round(valorLiquido, 2)
             };
         }
 
