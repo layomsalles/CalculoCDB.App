@@ -1,4 +1,4 @@
-﻿namespace CalculoCDBApp.Api.Response
+﻿namespace CalculoCDBApp.Application.Response
 {
     public class CalcularCdbResponse
     {

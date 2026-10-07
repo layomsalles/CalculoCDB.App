@@ -1,4 +1,4 @@
-﻿namespace CalculoCDBApp.Api.Request
+﻿namespace CalculoCDBApp.Application.Request
 {
     public class CalcularCdbRequest
     {
