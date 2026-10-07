@@ -1,14 +1,12 @@
 <Solution>
   <Folder Name="/Application/">
-    <Project Path="CalculoCDBApp.Api/CalculoCDBApp.Api.csproj" />
+    <Project Path="CalculoCDBApp.Application/CalculoCDBApp.Application.csproj" Id="3996cea5-d039-4952-aa91-0f2b12900687" />
   </Folder>
-  <Folder Name="/Domain/">
-    <Project Path="CalculoCDBApp.Domain/CalculoCDBApp.Domain.csproj" />
-  </Folder>
-  <Folder Name="/Infrastructure/">
-    <Project Path="CalculoCDBApp.Infra/CalculoCDBApp.Infra.Data.csproj" />
+  <Folder Name="/Itens de Solução/">
+    <File Path="docker-compose.yml" />
   </Folder>
   <Folder Name="/Tests/">
     <Project Path="CalculoCDBTests/CalculoCDBTests.csproj" />
   </Folder>
+  <Project Path="CalculoCDBApp.Api/CalculoCDBApp.Api.csproj" />
 </Solution>
