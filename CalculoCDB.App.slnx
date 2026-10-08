@@ -2,6 +2,7 @@
   <Folder Name="/Application/">
     <Project Path="CalculoCDBApp.Application/CalculoCDBApp.Application.csproj" Id="3996cea5-d039-4952-aa91-0f2b12900687" />
   </Folder>
+  <Folder Name="/FrontEnd/" />
   <Folder Name="/Tests/">
     <Project Path="CalculoCDBTests/CalculoCDBTests.csproj" />
   </Folder>
