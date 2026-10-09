@@ -1,15 +1,33 @@
 <div class="container">
-    <form action="">
+    <form [formGroup]="formDados" (ngSubmit)="Calcular()">
         <label for="valorTotal">
             Valor total:
-            <input type="number" name="valorTotal" id="valorTotal">
+            <input type="number" formControlName="valorTotal" id="valorTotal">
         </label>
 
         <label for="valorTotal">
             Mes:
-            <input type="number" name="mes" id="mes">
+            <input type="number" formControlName="mes" id="mes">
         </label>
 
         <button type="submit">Enviar</button>
     </form>
+
+   @if (resultado(); as dados) {
+    <div class="card mt-4">
+        <div class="card-body">
+            <h5>Resultado do investimento</h5>
+
+            <p>
+                <span>Valor bruto:</span>
+                {{ dados.valorBruto | currency:'BRL' }}
+            </p>
+
+            <p>
+                <span>Valor líquido:</span>
+                {{ dados.valorLiquido | currency:'BRL' }}
+            </p>
+        </div>
+    </div>
+    }
 </div>
